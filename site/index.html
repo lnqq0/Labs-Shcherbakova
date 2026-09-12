@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="description" content="lalala">
+    <meta name="keywords" content="lalala">
+    <script type="module"
+        src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <header>
+        <logo>
+            <img src="img/logo.jpeg" alt="Логотип">
+        </logo>
+    <nav>
+        <ul>
+            <li><a href="#about-me">О герое</a></li>
+            <li><a href="#qualities">Качества</a></li>
+            <li><a href="#collection">Коллекция</a></li>
+            <li><a href="#friends">Друзья</a></li>
+            <li><a href="#quote">Цитата</a></li>
+            <li><a href="#gallery">Мир Ежика</a></li>
+        </ul>
+    </nav>
+    </header>
+    <main>
+        <section class="about-me">
+            <div class="about-text">
+                    <h1>ЁЖИК</h1>
+            <p>Ёжик — это тихий, рассудительный и очень воспитанный персонаж, который служит мягким противовесом взрывному характеру своего лучшего друга Кроша</p>
+            <ul>
+                <li>Возраст: 12 лет</li>
+                <li>Любимое занятие: Коллекционировать фантики</li>
+                <li>Характер: Спокойный, рассудительный, заботливый</li>
+            </ul>
+            </div>
+
+            <model-viewer
+                src="3d model.glb"
+                camera-controls
+                auto-rotate>
+            </model-viewer>
+
+        </section>
+        <section class="qualities">
+            <h2>Качества</h2>
+            <ul>
+                <li><b>Интеллигентность и воспитанность:</b> Он всегда вежлив со всеми персонажами, соблюдает личные границы и правила приличия.</li>
+                <li><b>Дипломатия:</b> Ёжик умеет сглаживать острые углы, разрешать конфликты и мирить друзей, когда Крош затевает очередную опасную авантюру.</li>
+                <li><b>Рассудительность:</b> Прежде чем действовать, он анализирует ситуацию, проявляет осторожность и глубокую задумчивость.</li>
+                <li><b>Преданность и эмпатия:</b> Он искренне дорожит дружбой с Крошем, тяжело переживает обиды и всегда готов прийти на помощь, преодолевая собственные страхи.</li>
+            </ul>
+        </section>
+        <section class="collection">
+            <h2>Коллекция</h2>
+            <p>Одна из особенностей Ёжика — любовь к коллекционированию. Каждый фантик в его коллекции связан с определённой историей или воспоминанием.</p>
+            <img src="img/candy wrapper1.png" alt="Коллекция фантиков">
+            <img src="img/candy wrapper2.png" alt="Коллекция фантиков">
+            <img src="img/candy wrapper3.png" alt="Коллекция фантиков">
+            <img src="img/candy wrapper4.png" alt="Коллекция фантиков">
+            <img src="img/candy wrapper5.png" alt="Коллекция фантиков">
+            <img src="img/candy wrapper6.png" alt="Коллекция фантиков">
+        </section>
+        <section class="friends">
+            <h2>Друзья</h2>
+            <p>Ёжик ценит дружбу и всегда старается поддерживать тех, кто ему дорог. Особенно близкие отношения у него сложились с Крошем.</p>
+
+         <div class="friends-list">
+            <div class="friend">
+                <img src="img/Krosh.jpg" alt="Крош">
+                <p><b>Крош</b><br>Энергичный, любопытный и всегда готовый к новым приключениям.</p>
+            </div>
+                <div class="friend">
+                <img src="img/barash.webp" alt="Бараш">
+                <p><b>Бараш</b><br>Мечтательный и чувствительный друг, который часто смотрит на мир совсем иначе.</p>
+            </div>
+            <div class="friend">
+                <img src="img/Nyusha.jpg" alt="Нюша">
+                <p><b>Нюша</b><br>Яркая и эмоциональная героиня, с которой Ёжика связывает давняя дружба.</p>
+            </div>
+            <div class="friend">
+                <img src="img/Bibi.jpg" alt="Биби">
+                <p><b>Биби</b><br>Мудрая и заботливая подруга, которая всегда готова дать совет и поддержать.</p>
+            </div>
+          </div>
+         </section>
+        <section class="quote">
+            <h2>Цитата</h2>
+            <blockquote>
+                <p>«Самый полезный опыт — это познать не свой характер, а характер своего друга, и вовремя сделать выводы. Или ноги».</p>
+            </blockquote>
+        </section>
+        <section class="gallery">
+            <h2>Мир Ежика</h2>
+            <p>Дом, лес, любимые места и моменты из жизни Смешариков.</p>
+            <img src="img/gallery1.webp" alt="Дом Ежика">
+            <img src="img/gallery2.jpg" alt="Лес">
+            <img src="img/gallery3.jpg" alt="Любимые места">
+            <img src="img/gallery4.jpg" alt="Моменты из жизни Смешариков">
+            <img src="img/gallery5.jpg" alt="Моменты из жизни Смешариков">
+            <img src="img/gallery6.jpg" alt="Моменты из жизни Смешариков">
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026. Все права защищены.</p>
+    </footer>
+</body>
+</html>
